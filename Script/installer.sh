@@ -310,5 +310,65 @@ if ! read -n1 -rsp $'Press any key to continue or ctrl+c to exit.\n'; then
 fi
 
 fink selfupdate
+clear
+echo "Installing dependencies with fink"
+
+echo " Installing  suitesparse"
+sudo fink install suitesparse
+clear
+
+echo "Installing fftw3 "
+sudo fink install fftw3
+clear
+
+echo "Installing libmatio2"
+sudo fink install libmatio2
+clear
+
+echo "Installing libmatio2-shlibs"
+sudo fink install libmatio2-shlibs
+clear
+
+echo "Installing hdf5.8"
+sudo fink install hdf5.8
+clear
+
+echo "Installing hdf5.8-shlibs"
+sudo fink install hdf5.8-shlibs
+clear
+
+echo " Installing libpcre1"
+sudo fink install libpcre1
+clear
+
+echo "Installing ant"
+sudo fink install ant
+clear
+
+echo "Installing gettext-bin-0.19.3-1"
+sudo fink install gettext-bin-0.19.3-1
+clear
+
+echo "Installing gettext-tools-0.19.3-1"
+sudo fink install gettext-tools-0.19.3-1
+clear
+
+echo "Installing arpack-ng-3.1.5-3"
+sudo fink install arpack-ng-3.1.5-3
+clear
+
+echo "Installing pkgconfig-0.28-1"
+sudo fink install pkgconfig-0.28-1
+clear
+
+echo "Installing libcurl4-7.42.0-1+10.8"
+sudo fink install libcurl4-7.42.0-1+10.8
+clear
+
+echo "Installing libmatio2-1.5.2-2"
+sudo fink install libmatio2-1.5.2-2
+clear
+
+
 
 exit 0
