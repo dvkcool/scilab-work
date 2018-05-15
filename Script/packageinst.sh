@@ -4,7 +4,7 @@ echo "Installing dependencies with fink"
 echo " Installing  suitesparse"
 s1=$(sudo fink install suitesparse)
 echo "$s1"
-if [ s1 == "No packages to install." ] ; then
+if [ "$s1" = "No packages to install." ] ; then
   echo "suitesparse is already installed"
 else
   echo "not installed"
