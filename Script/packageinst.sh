@@ -21,21 +21,25 @@ declare -a packages=("suitesparse"
 #   echo " Installing  $i"
 #   sudo fink install $i -y
 #done
-c = 0
+count=0
 installed=""
 ninstalled=""
 listi=$(fink list -i)
+echo "$listi"
 for i in "${packages[@]}"
 do
-   if [ "$listi" = *"$i"* ] ; then
-     $installed = $installed + "\n $i"
+   if [ -z "${listi##*$i*}" ] ; then
+     installed="$installed  $i"
    else
-     c = `expr $c + 1`
-     $ninstalled = $ninstalled + "\n $i"
+     count=`expr $count + 1`
+     ninstalled="$ninstalled  $i"
    fi
 done
 
 clear
 echo "List of installed packages : $installed"
-if [ $c -ge 0 ] ; then
-  echo "Following packages were not installed"
+if [ $count -ge 0 ] ; then
+  echo "Following packages were not installed: $ninstalled"
+else
+  echo "Congratulations everything is perfectly setup to compile Scilab"
+fi
