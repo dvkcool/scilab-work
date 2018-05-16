@@ -311,64 +311,50 @@ fi
 
 fink selfupdate
 clear
+
 echo "Installing dependencies with fink"
+. /sw/bin/init.sh
 
-echo " Installing  suitesparse"
-sudo fink install suitesparse
+declare -a packages=("suitesparse"
+                      "fftw3"
+                      "libmatio2"
+                      "libmatio2-shlibs"
+                      "hdf5.9-oldapi" "hdf5.9-oldapi-shlibs"
+                      "libpcre1"
+                      "ant"
+                      "gettext-bin"
+                      "gettext-tools"
+                      "arpack-ng"
+                      "pkgconfig"
+                      "libcurl4"
+                      "libmatio2")
+for i in "${packages[@]}"
+do
+   clear
+   echo " Installing  $i"
+   sudo fink install $i
+done
+count=0
+installed=""
+ninstalled=""
+listi=$(fink list -i)
+
+for i in "${packages[@]}"
+do
+   if [ -z "${listi##*$i*}" ] ; then
+     installed="$installed \n $i"
+   else
+     count=`expr $count + 1`
+     ninstalled="$ninstalled \n $i"
+   fi
+done
+
 clear
-
-echo "Installing fftw3 "
-sudo fink install fftw3
-clear
-
-echo "Installing libmatio2"
-sudo fink install libmatio2
-clear
-
-echo "Installing libmatio2-shlibs"
-sudo fink install libmatio2-shlibs
-clear
-
-echo "Installing hdf5.8"
-sudo fink install hdf5.8
-clear
-
-echo "Installing hdf5.8-shlibs"
-sudo fink install hdf5.8-shlibs
-clear
-
-echo " Installing libpcre1"
-sudo fink install libpcre1
-clear
-
-echo "Installing ant"
-sudo fink install ant
-clear
-
-echo "Installing gettext-bin-0.19.8.1-2"
-sudo fink install gettext-bin-0.19.8.1-2
-clear
-
-echo "Installing gettext-tools-0.19.8.1-2"
-sudo fink install gettext-tools-0.19.8.1-2
-clear
-
-echo "Installing arpack-ng-3.4.0-1"
-sudo fink install arpack-ng-3.4.0-1
-clear
-
-echo "Installing pkgconfig-0.28-2"
-sudo fink install pkgconfig-0.28-2
-clear
-
-echo "Installing libcurl4-7.57.0-1"
-sudo fink install libcurl4-7.57.0-1
-clear
-
-echo "Installing libmatio2-1.5.3-1"
-sudo fink install libmatio2-1.5.3-1
-clear
-
-
+echo -e "List of installed packages : $installed \n\n"
+if [ $count -gt 0 ] ; then
+  echo -e "Following packages were not installed: $ninstalled\n\n Please install them manually"
+else
+  echo  -e "Congratulations everything is perfectly setup to compile Scilab\n\n"
+fi
 
 exit 0
