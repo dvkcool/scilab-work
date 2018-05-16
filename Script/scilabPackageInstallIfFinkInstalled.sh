@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "Installing Scilab dependencies with fink"
 . /sw/bin/init.sh
 
