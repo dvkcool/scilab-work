@@ -4,7 +4,7 @@ echo "Installing Scilab dependencies with fink"
 
 # Checking if user has root access
 if [[ $EUID -ne 0 ]]; then
-   echo "You must be root to do this."
+   echo "You must run this script with root permissions."
    exit 0
 fi
 
