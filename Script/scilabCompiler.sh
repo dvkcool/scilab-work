@@ -10,6 +10,9 @@ if [[ $EUID -ne 0 ]]; then
    exit 0
 fi
 
+# Deleting scilab folder if already present
+sudo rm -rf scilab
+
 # Cloning the base repository
 git clone git://git.scilab.org/scilab
 
@@ -40,9 +43,35 @@ cd scilab
 
 # Initialins fink again just to be sure
 . /sw/bin/init.sh
+s=""
+# Asking about Modelica/ ocaml
+echo  "Do you want to compile with ocaml [y/n]"
+read t
+if [ "$t" = "y" ]; then
+  sudo fink install ocaml
+  listi=$(fink list -i)
+  i="ocaml"
+  # checking if listi contains ocaml
+     if [ -z "${listi##*$i*}" ] ; then
+       echo "ocaml installed"
+     else
+       echo "ocaml not installed, Please install it manually and rerun the script."
+       exit 0
+     fi
+ else
+  s=" $s  --without-modelica"
+fi
+
+# Do you want to specify other parameters while compilation
+echo "Do you want to specify other parameters while compilation [y/n]"
+read t
+if [ "$t" = "y" ]; then
+  echo "Please enter the other paramters: "
+  read t
+  s=" $s $t"
 
 # Compiling the default
-./configure --without-openmp --without-tk --without-modelica --with-eigen_include=`pwd`/lib/Eigen/includes && make
+./configure --without-openmp --without-tk --with-eigen_include=`pwd`/lib/Eigen/includes $s && make
 
 # Installing scilab
 make install
