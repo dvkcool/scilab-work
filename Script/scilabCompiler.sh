@@ -43,10 +43,10 @@ cd scilab
 
 # Initialins fink again just to be sure
 . /sw/bin/init.sh
-s=""
+parameters=""
 # Asking about Modelica/ ocaml
-echo  "Do you want to compile with ocaml [y/n]"
-read t
+read -p "Do you want to compile with ocaml [y/n]" t
+
 if [ "$t" = "y" ]; then
   sudo fink install ocaml
   listi=$(fink list -i)
@@ -59,19 +59,33 @@ if [ "$t" = "y" ]; then
        exit 0
      fi
  else
-  s=" $s  --without-modelica"
+  parameters=" $parameters  --without-modelica"
 fi
 
 # Do you want to specify other parameters while compilation
-echo "Do you want to specify other parameters while compilation [y/n]"
-read t
+read -p "Do you want to specify other parameters while compilation [y/n]" t
 if [ "$t" = "y" ]; then
   echo "Please enter the other paramters: "
   read t
-  s=" $s $t"
+  parameters=" $parameters $t"
+fi
 
-# Compiling the default
-./configure --without-openmp --without-tk --with-eigen_include=`pwd`/lib/Eigen/includes $s && make
+jdkpath_default=$(/usr/libexec/java_home)
+
+read -p "Please enter your jdk path [$jdkpath_default]: " jdkpath
+jdkpath="${jdkpath:-$jdkpath_default}"
+
+echo "Copying third party lib from Scilab to jre folder"
+# Changing to third party lib folder
+cd ./lib/thirdparty
+
+# Recursively copying files
+cp -R *  $jdkpath/jre/lib/
+cd ../..
+
+
+# Compiling with paramerters specified by users
+./configure --without-openmp --without-tk --with-eigen_include=`pwd`/lib/Eigen/includes $parameters && make
 
 # Installing scilab
 make install
