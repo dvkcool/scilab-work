@@ -70,19 +70,23 @@ if [ "$t" = "y" ]; then
   parameters=" $parameters $t"
 fi
 
-jdkpath_default=$(/usr/libexec/java_home)
+# jdkpath_default=$(/usr/libexec/java_home)
 
-read -p "Please enter your jdk path [$jdkpath_default]: " jdkpath
-jdkpath="${jdkpath:-$jdkpath_default}"
+#read -p "Please enter your jdk path [$jdkpath_default]: " jdkpath
+#jdkpath="${jdkpath:-$jdkpath_default}"
 
-echo "Copying third party lib from Scilab to jre folder"
+#echo "Copying third party lib from Scilab to jre folder"
 # Changing to third party lib folder
-cd ./lib/thirdparty
+#cd ./lib/thirdparty
 
 # Recursively copying files
-cp -R *  $jdkpath/jre/lib/
-cd ../..
+#cp -R *  $jdkpath/jre/lib/
+#cd ../..
 
+# Getting full path of current directory
+current_dir=$(pwd)
+DYLD_LIBRARY_PATH="$current_dir/scilab/scilab/lib/thirdparty"
+export DYLD_LIBRARY_PATH
 
 # Compiling with paramerters specified by users
 ./configure --without-openmp --without-tk --with-eigen_include=`pwd`/lib/Eigen/includes $parameters && make
@@ -91,7 +95,7 @@ cd ../..
 make install
 
 # Running scilab
-echo "Congratulations Scilab is successfully installed. \n\n To launch Scilanb just type scilab in terminal".
+echo "Congratulations Scilab is successfully installed. \n\n To launch Scilab just type scilab in terminal".
 
 
 exit 0

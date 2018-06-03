@@ -1,0 +1,231 @@
+Scilab is configured as follows. Please verify that this configuration
+matches your expectations.
+
+Host system type : x86_64-apple-darwin17.5.0
+
+                  Option                        Value
+-------------------------------------------------------------------------
+Shared libraries.......      --enable-shared=yes
+Static libraries.......      --enable-static=no
+GNU ld.................      --with-gnu-ld=no
+Enable debug ..........      --enable-debug=no
+Enable debug C.........      --enable-debug-C=no
+Enable debug C++.......      --enable-debug-CXX=no
+Enable debug Java......      --enable-debug-java=
+Enable debug Fortran...      --enable-debug-fortran=no
+Enable stop on warning.      --enable-stop-on-warning=
+
+Compiler Configuration:
+  Intel (--with-intelcompilers) .... =
+  GNU gcc (--with-gcc) ............. =
+  GNU Fortran 95 (--with-gfortran) . =
+
+Options:
+  Do not use TCL/TK (--without-tk) ................. = no
+  TCL include (--with-tcl-include) ................. =
+  TCL library (--with-tcl-library) ................. =
+  TK include (--with-tk-include) ................... =
+  TK library (--with-tk-library) ................... =
+  Install XML Help (--with-install-help-xml) ....... =
+  Compilation tests (--enable-compilation-tests) ... = no
+  Make the package relocatable (--enable-relocatable)= no
+  Use FFTW (--without-fftw) ........................ =
+  Use MATIO (--without-matio) ...................... =
+
+  Compile with Scilab thirdparties ................. = false
+
+Xcos enable
+Build modelica compiler (--without-modelica) ....... = no
+
+Will not build Modelica compiler
+
+Not using code coverage
+
+Not using OpenMP
+
+FFTW Configuration:
+  FFTW LIBS .......... = -lfftw3
+  FFTW CFLAGS ........ =
+
+Eigen3 Configuration:
+  EIGEN CPPFLAGS ...... = -I/Users/divyanshukumar/Documents/check/scilab/scilab/lib/Eigen/includes
+
+MATIO Configuration:
+  MATIO LIBS .......... = -L/sw/lib -lmatio -lhdf5 -lz
+  MATIO CFLAGS ........ = -I/sw/include
+
+UMFPACK Configuration:
+  UMFPACK LIBS ....... = -lumfpack -lamd
+  UMFPACK CFLAGS ..... =
+  UMFPACK SUITESPARSE  = Yes
+
+BLAS/LAPACK/ATLAS Configuration:
+  BLAS LIBS ............. = -lblas
+  BLAS TYPE ............. = Generic Blas
+  LAPACK LIBS ........... = -llapack
+  LAPACK TYPE ........... = Library -llapack
+  ARPACK LIBS ........... = -larpack
+
+Not using MPI
+
+Gettext/localization configuration:
+  xgettext ............... = /sw/bin/xgettext
+  msgfmt  ................ = /sw/bin/msgfmt
+  msgfmt_opts ............ =
+  msgcat  ................ = /sw/bin/msgcat
+
+Documentation building configuration:
+  Docbook XSL path ....... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/docbook/
+  Saxon XSLT ............. = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/saxon9he.jar
+  XML commons external ... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/xml-apis-ext.jar
+
+Java Configuration:
+  JAVA_HOME ........... =
+  JAVAC ............... = /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/javac
+  JAVA_CLASSPATH ...... =
+  JAVA_VERSION ........ = 1.9
+  JAVAC_FLAGS ......... = -g
+  JAVA_JNI_INCLUDE .... = -I/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/include/darwin
+  JAVA_JNI_LIBS ....... = -framework JavaVM
+  JAVA_JNI_LIBS_PRELOAD =
+  JAVA ................ = /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/java
+  JAVADOC ............. = /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/javadoc
+  JAR ................. = /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/jar
+  ANT ................. = /sw/bin/ant
+
+Java dependencies:
+  Flexdock ............ = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/flexdock-1.2.4.jar
+  JOGL 2............... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jogl2.jar
+  JOGL 2 LIBS (JNI) ... =
+  Gluegen 2 ........... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/gluegen2-rt.jar
+  Gluegen 2 LIBS (JNI)  =
+  Jeuclid (MathML) .... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jeuclid-core.jar
+  Jhall  .............. = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jhall.jar
+  Jrosetta (API) ...... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jrosetta-API.jar
+  Jrosetta (Engine) ... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jrosetta-engine.jar
+  Commons Logging ..... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/commons-logging.jar
+  JGraph X ............ = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jgraphx.jar
+  SciRenderer ......... = ${modules.dir}/scirenderer/${build.jar.dir}/scirenderer.jar
+  JLaTeXMath .......... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jlatexmath-1.0.3.jar
+  ECJ ................. = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/ecj.jar
+
+Documentation, graphic export:
+  FOP (XML => PDF) .... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/fop.jar
+  JLaTeXMath Fop ...... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jlatexmath-fop-1.0.3.jar
+  Batik (SVG) ......... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/batik-all.jar
+  Avalon Framework .... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/avalon-framework.jar
+  Commons I/O ......... = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/commons-io.jar
+  XML graphics commons  = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/xmlgraphics-commons.jar
+
+Code quality (optional):
+  Checkstyle .......... =
+  Commons-beanutils ... =
+  Antlr ............... =
+  Junit4 .............. = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/junit.jar
+  Hamcrest ............ = /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/junit.jar
+  Cobertura ........... =
+  splint .............. = no
+
+TCL/TK configuration:
+  TK_INC_PATH ........ =
+  TCL_INC_PATH ....... =
+  TCLTK_LIBS ......... =
+  TCL_SERIAL_VERSION . =
+  TK_SERIAL_VERSION .. =
+
+XML configuration:
+  XML_FLAGS .......... = -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2
+  XML_LIBS ........... = -L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib -lxml2 -lz -lpthread -licucore -lm
+  XML_VERSION ........ = 2.9.4
+
+HDF5 configuration:
+  HDF5 CFLAGS ......... =
+  HDF5 LIBS ........... = -lhdf5 -lhdf5_hl
+
+PCRE configuration:
+  PCRE_CFLAGS ........ = -I/sw/include
+  PCRE_LIBS .......... = -L/sw/lib/libpcre1 -lpcreposix -lpcre
+  PCRE_VERSION ....... = 8.42
+
+Regenerate Scilab's parser
+  YACC ............... =
+  LEX ................ =
+  YFLAGS ............. =
+
+CURL configuration:
+  CURL_CFLAGS ........ = -I/sw/include
+  CURL_LIBS .......... = -L/sw/lib -lcurl
+  CURL_VERSION ....... = libcurl 7.59.0
+
+SWIG Configuration:
+  SWIG generation disabled
+
+GIWS Configuration:
+  GIWS generation disabled
+
+Valgrind configuration:
+  VALGRIND_CFLAGS .... =
+  VALGRIND_LIBS ...... =
+
+
+Libtool config:
+  objext .............. = o
+  libext (static) ..... = a
+  shrext_cmds ......... = .dylib
+  exeext .............. =
+
+Compilation paths:
+  srcdir .............. = .
+  srcdir_full ......... = /Users/divyanshukumar/Documents/check/scilab/scilab
+  builddir ............ = /Users/divyanshukumar/Documents/check/scilab/scilab
+
+Platform information:
+  host ........... = x86_64-apple-darwin17.5.0
+  host_cpu ....... = x86_64
+  host_vendor .... = apple
+  host_os ... .... = darwin17.5.0
+  hostname ....... = Divyanshus-MacBook-Air.local
+  CPU 64 bits .... = false
+  Mac OS X arch .. = x86_64
+  Mac OS X version = 10.13.4
+
+Options used to compile and link:
+  prefix ......... = /usr/local
+  localedir ...... = ${datarootdir}/locale
+  VERSION ........ = 6
+  CC ............. = gcc -arch x86_64
+  CFLAGS ......... = -g -O2
+  SCI_CFLAGS ..... = -DNDEBUG -g1 -O2 -fno-stack-protector
+  DEFS ........... = -DHAVE_CONFIG_H
+  LD ............. = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+  LDFLAGS ........ =  -L/sw//lib/
+  SCI_LDFLAGS .... =
+  LIBS ........... = -ldl -lcurses
+  CXX ............ = g++ -arch x86_64
+  CXXFLAGS ....... =
+  SCI_CXXFLAGS ... = -std=c++11 -DNDEBUG -g1 -O2 -fno-stack-protector
+  F77 ............ = gfortran
+  FFLAGS ......... =
+  SCI_FFLAGS ..... = -DNDEBUG -g1 -O2
+  F77_LDFLAGS .... =
+  FLIBS...... .... =  -L/sw//lib/ -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. -lcurses -lgfortran -lquadmath -lm
+  TERMCAP_LIB .... = no
+
+Making all in modules
+Making all in prebuildjava
+Buildfile: /Users/divyanshukumar/Documents/check/scilab/scilab/modules/prebuildjava/build.xml
+
+scirenderer:
+     [echo] Using:
+     [echo] ${thirdparty.dir}
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jogl2.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/gluegen2-rt.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jlatexmath-1.0.3.jar
+
+
+
+
+     Divyanshus-MacBook-Air:check divyanshukumar$ scilab
+Scilab startup function detected that the function proposed to the engine is the wrong one. Usually, it comes from a linker problem in your distribution/OS.
+Here, Scilab should have 'libscijvm' defined but gets 'libscijvm-disable' instead.
+If you do not know what it means, please report a bug on http://bugzilla.scilab.org/. If you do, you probably know that you should change the link order in SCI/modules/Makefile.am

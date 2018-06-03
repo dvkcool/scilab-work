@@ -463,7 +463,7 @@ cd ../..
 make install
 
 # Running scilab
-echo "Congratulations Scilab is successfully installed. \n\n To launch Scilanb just type scilab in terminal".
+echo "Congratulations Scilab is successfully installed. \n\n To launch Scilab just type scilab in terminal".
 
 
 exit 0
