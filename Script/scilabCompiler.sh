@@ -85,7 +85,7 @@ fi
 
 # Getting full path of current directory
 current_dir=$(pwd)
-DYLD_LIBRARY_PATH="$current_dir/scilab/scilab/lib/thirdparty"
+DYLD_LIBRARY_PATH="$current_dir/lib/thirdparty"
 export DYLD_LIBRARY_PATH
 
 # Compiling with paramerters specified by users
