@@ -1,0 +1,674 @@
+checking whether ln -s works... yes
+checking for gcc... gcc-5
+checking whether the C compiler works... no
+configure: error: in `/Users/divyanshukumar/Documents/check/scilab/scilab':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+Making install in modules
+Making install in prebuildjava
+Buildfile: /Users/divyanshukumar/Documents/check/scilab/scilab/modules/prebuildjava/build.xml
+
+scirenderer:
+     [echo] Using:
+     [echo] ${thirdparty.dir}
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jogl2.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/gluegen2-rt.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jlatexmath-1.0.3.jar
+
+init:
+
+compile:
+
+noversion:
+     [echo] Using:
+     [echo] ${thirdparty.dir}
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jogl2.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/gluegen2-rt.jar
+     [echo] /Users/divyanshukumar/Documents/check/scilab/scilab/thirdparty/jlatexmath-1.0.3.jar
+
+init:
+
+compile:
+
+jar:
+
+localization:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+commons:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+history_manager:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+jvm:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+action_binding:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+graphic_objects:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+completion:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+console:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+renderer:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+graphic_export:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+gui:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+core:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+helptools:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+types:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+scinotes:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+ui_data:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+history_browser:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+javasci:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+graph:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+
+jar:
+
+xcos:
+  [taskdef] Could not load definitions from resource checkstyletask.properties. It could not be found.
+
+init:
+
+compile:
+    [javac] Compiling 268 source files to /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/build/classes
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/BrowserView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Controller.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/JavaController.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/JavaControllerJNI.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/JavaXMIResource.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/JavaXMIResourceJNI.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Kind.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/ObjectProperties.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/PortKind.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/UpdateStatus.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/UpdateStyleFromInterfunctionAdapter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfBool.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfDouble.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfInt.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfScicosID.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfString.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/View.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/ViewPortTab.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Xcos.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/XcosTab.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/XcosView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/XcosViewListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/AboutXcosAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/CloseAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/CompileAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/DebugLevelAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/DiagramBackgroundAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/EditFormatAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ExportAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ExportAllAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ExternalAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/FitDiagramToViewAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/InitModelicaAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/NewDiagramAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/NormalViewAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/OpenAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/OpenInSciAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/PrintAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/QuitAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/RecentFileAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SaveAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SaveAsAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SetContextAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SetupAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ShowHideShadowAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SimulationNotRunningAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/StartAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/StopAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ViewDiagramBrowserAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ViewDiagramTreeShowAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ViewGridAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ViewViewportAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/XcosDemonstrationsAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/XcosDocumentationAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/dialog/DebugLevelDialog.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/dialog/SetContextDialog.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/dialog/SetupDialog.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/AfficheBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/BasicBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/SplitBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/SuperBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/TextBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/AutoPositionSplitBlockAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/BlockDocumentationAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/BlockParametersAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/BorderColorAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/CodeGenerationAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/FilledColorAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/FlipAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/MirrorAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/RegionToSuperblockAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/RotateAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/ShowParentAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/SuperBlockSelectedAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/SuperblockMaskCreateAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/SuperblockMaskCustomizeAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/SuperblockMaskRemoveAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/ViewDetailsAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionBottom.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionCenter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionLeft.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionMiddle.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionRight.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/alignement/AlignBlockActionTop.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/BigSom.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/GroundBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/ProdPortLabeler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/Product.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/RoundBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/SumPortLabeler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/Summation.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/custom/VoltageSensorBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/ContextUpdate.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/EventInBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/EventOutBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/ExplicitInBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/ExplicitOutBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/ImplicitInBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/io/ImplicitOutBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/configuration/ConfigurationManager.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/configuration/model/DocumentType.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/configuration/model/ObjectFactory.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/configuration/model/SettingType.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/configuration/utils/ConfigurationConstants.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/explorer/BrowserTab.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/explorer/BrowserTreeNodeData.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/DiagramComparator.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/PaletteDiagram.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/ScicosParameters.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/XcosDiagram.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/BlockInterFunction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/ScicosObjectOwner.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/XcosCell.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/XcosCellFactory.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/XcosGraphModel.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/swing/GraphComponent.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/swing/handler/ConnectPreview.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/swing/handler/ConnectionHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/swing/handler/GraphHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/swing/handler/SelectionCellsHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/HandledElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/HandledElementsCategory.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/ScilabTypeCoder.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/XcosFileType.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/BasicBlockCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/BasicLinkCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/BasicPortCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/OrientationCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/XcosCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/XcosDiagramCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/XcosObjectCodec.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/BlockHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/CustomHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/JGraphXHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/LinkHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/PortHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/RawDataHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/ScilabHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/sax/XcosSAXHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/AbstractElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/BasicBlockInfo.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/BlockElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/BlockGraphicElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/BlockModelElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/BlockPartsElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/DiagramElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/Element.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/Handler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/InputPortElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/LabelElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/LinkElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/OutputPortElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/ScicosFormatException.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/ScicosParametersElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/scicos/ScilabDirectHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/ContentEntry.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/DictionaryEntry.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/Entry.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/XcosPackage.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/BlockWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/CustomWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/DelegatingXMLStreamWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/IndentingXMLStreamWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/JGraphXWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/LinkWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/PortWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/RawDataWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/ScilabWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/XcosWriter.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/BasicLink.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/CommandControlLink.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/ExplicitLink.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/ImplicitLink.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/LinkPortMap.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/StyleAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/StyleHorizontalAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/StyleOptimalAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/StyleStraightAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/StyleVerticalAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/link/actions/TextAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/ModelStatistics.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/Modelica.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/ModelicaController.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/ModelicaMessages.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/TerminalAccessor.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/TerminalTableModel.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/listener/FixDerivativesAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/listener/FixStatesAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/listener/SolveAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/listener/StatisticsUpdater.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/Info.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/Model.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/ModelicaValue.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/ObjectFactory.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/Output.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/Struct.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/model/Terminal.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/view/LabelWithValue.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/modelica/view/MainPanel.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/Palette.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteBlockCtrl.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteCtrl.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteIndexer.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteManager.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteSearchManager.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PaletteSearcher.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/PreLoadedElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/StyleElement.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/ClosePalettesAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/LoadAsPalAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/NavigationAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/NewPaletteAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/SearchAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/ViewPaletteBrowserAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/ZoomAction.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockKeyListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockMouseListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteDragGestureListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteManagerMouseListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteManagerTreeSelectionListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteManagerTreeWillExpandListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteMouseListener.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteTreeTransferHandler.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Category.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Custom.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/ObjectFactory.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Palette.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/PaletteBlock.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/PaletteNode.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/PreLoaded.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/VariablePath.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/ModifiedFlowLayout.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteBlockView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteComponent.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteConfiguratorListView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteManagerPanel.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteManagerView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteSearchView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteTreeModel.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteView.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/BasicPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/Orientation.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/PortCheck.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/command/CommandPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/control/ControlPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/input/ExplicitInputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/input/ImplicitInputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/input/InputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/output/ExplicitOutputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/output/ImplicitOutputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/port/output/OutputPort.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/preferences/XcosConfiguration.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/preferences/XcosKeyMap.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/preferences/XcosOptions.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/BlockAutoPositionUtils.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/BlockPositioning.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/FileUtils.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/ImageIconTranscoder.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/PaletteComponent.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/Stack.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosConstants.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosDelegates.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosDialogs.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosEvent.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosMessages.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosRoute.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/XcosRouteUtils.java
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/XcosFileType.java:53: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/ContentEntry.java:35: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] warning: Supported source version 'RELEASE_6' from annotation processor 'com.jogamp.gluegen.structgen.CStructAnnotationProcessor' less than -source '8'
+    [javac] warning: No processor claimed any of these annotations: javax.xml.bind.annotation.XmlAccessorType,javax.xml.bind.annotation.XmlAttribute,javax.xml.bind.annotation.XmlTransient,org.scilab.modules.graph.utils.ScilabExported,javax.xml.bind.annotation.XmlRootElement,javax.xml.bind.annotation.XmlSeeAlso,java.lang.FunctionalInterface,org.scilab.modules.commons.xml.XConfiguration.XConfAttribute,javax.xml.bind.annotation.XmlType,javax.xml.bind.annotation.XmlElementRefs,javax.xml.bind.annotation.XmlElements,javax.xml.bind.annotation.XmlRegistry,javax.xml.bind.annotation.XmlSchemaType,javax.xml.bind.annotation.XmlElementDecl,javax.xml.bind.annotation.XmlElement
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/XcosFileType.java:53: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/ContentEntry.java:35: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/XcosFileType.java:53: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/ContentEntry.java:35: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac] import org.xml.sax.helpers.XMLReaderFactory;
+    [javac]                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/View.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/BrowserView.java:260: error: incompatible types: Enumeration<TreeNode> cannot be converted to Enumeration<DefaultMutableTreeNode>
+    [javac]         for (Enumeration<DefaultMutableTreeNode> e = root.depthFirstEnumeration(); e.hasMoreElements();) {
+    [javac]                                                                                ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Controller.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]   protected void finalize() {
+    [javac]                  ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfScicosID.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfInt.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfDouble.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfBool.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/VectorOfString.java:24: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/graph/model/ScicosObjectOwner.java:83: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() throws Throwable {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Xcos.java:194: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]     protected void finalize() throws Throwable {
+    [javac]                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/Xcos.java:201: warning: [deprecation] finalize() in Object has been deprecated
+    [javac]         super.finalize();
+    [javac]              ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/CloseAction.java:46: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]             .getMenuShortcutKeyMask();
+    [javac]             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/EditFormatAction.java:81: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ExportAction.java:77: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/ExportAllAction.java:74: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]             .getMenuShortcutKeyMask();
+    [javac]             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/FitDiagramToViewAction.java:45: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/NewDiagramAction.java:44: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/OpenAction.java:51: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/PrintAction.java:49: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/QuitAction.java:42: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SaveAction.java:44: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/actions/SaveAsAction.java:50: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = KeyEvent.SHIFT_DOWN_MASK | Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                                                     ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/BlockDocumentationAction.java:52: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/BlockParametersAction.java:63: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]             .getMenuShortcutKeyMask();
+    [javac]             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/FlipAction.java:44: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/MirrorAction.java:43: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/RotateAction.java:45: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]             .getMenuShortcutKeyMask();
+    [javac]             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/ShowParentAction.java:48: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/block/actions/SuperblockMaskCustomizeAction.java:758: error: incompatible types: Vector<Vector> cannot be converted to List<List<?>>
+    [javac]                 final List < List<? >> data = model.getDataVector();
+    [javac]                                                                  ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/XcosFileType.java:106: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac]                 XMLReader reader = XMLReaderFactory.createXMLReader();
+    [javac]                                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/XcosObjectCodec.java:180: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     obj = template.getClass().newInstance();
+    [javac]                                              ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/codec/XcosDiagramCodec.java:301: warning: [deprecation] getPackage(String) in Package has been deprecated
+    [javac]         final Package p = Package.getPackage("org.scilab.modules.xcos");
+    [javac]                                  ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/spec/ContentEntry.java:63: warning: [deprecation] XMLReaderFactory in org.xml.sax.helpers has been deprecated
+    [javac]             XMLReader reader = XMLReaderFactory.createXMLReader();
+    [javac]                                ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/io/writer/CustomWriter.java:120: warning: [deprecation] getPackage(String) in Package has been deprecated
+    [javac]             final Package p = Package.getPackage("org.scilab.modules.xcos");
+    [javac]                                      ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Palette.java:61: error: children() in Palette cannot implement children() in TreeNode
+    [javac]     public Enumeration<Object> children() {
+    [javac]                                ^
+    [javac]   return type Enumeration<Object> is not compatible with Enumeration<? extends TreeNode>
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Palette.java:60: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/PreLoaded.java:53: error: PreLoaded is not abstract and does not override abstract method children() in TreeNode
+    [javac] public class PreLoaded extends Palette {
+    [javac]        ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/PreLoaded.java:59: error: children() in Palette cannot implement children() in TreeNode
+    [javac]     public static class Dynamic extends PreLoaded {
+    [javac]                   ^
+    [javac]   return type Enumeration<Object> is not compatible with Enumeration<? extends TreeNode>
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/ClosePalettesAction.java:43: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]             .getMenuShortcutKeyMask();
+    [javac]             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/LoadAsPalAction.java:54: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     public static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                          ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/actions/ZoomAction.java:49: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]     private static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                           ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockKeyListener.java:72: warning: [deprecation] getModifiers() in InputEvent has been deprecated
+    [javac]             if ((e.getModifiers() & KeyEvent.CTRL_MASK) == 0) {
+    [javac]                   ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockKeyListener.java:72: warning: [deprecation] CTRL_MASK in InputEvent has been deprecated
+    [javac]             if ((e.getModifiers() & KeyEvent.CTRL_MASK) == 0) {
+    [javac]                                             ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockKeyListener.java:119: warning: [deprecation] getModifiers() in InputEvent has been deprecated
+    [javac]             boolean ctrlIsDown = (e.getModifiers() & KeyEvent.CTRL_MASK) != 0;
+    [javac]                                    ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockKeyListener.java:119: warning: [deprecation] CTRL_MASK in InputEvent has been deprecated
+    [javac]             boolean ctrlIsDown = (e.getModifiers() & KeyEvent.CTRL_MASK) != 0;
+    [javac]                                                              ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockMouseListener.java:166: warning: [deprecation] getModifiers() in InputEvent has been deprecated
+    [javac]             if ((e.getModifiers() & MouseEvent.CTRL_MASK) == 0) {
+    [javac]                   ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockMouseListener.java:166: warning: [deprecation] CTRL_MASK in InputEvent has been deprecated
+    [javac]             if ((e.getModifiers() & MouseEvent.CTRL_MASK) == 0) {
+    [javac]                                               ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockMouseListener.java:174: warning: [deprecation] getModifiers() in InputEvent has been deprecated
+    [javac]                 if ((e.getModifiers() & MouseEvent.CTRL_MASK) == 0) {
+    [javac]                       ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/listener/PaletteBlockMouseListener.java:174: warning: [deprecation] CTRL_MASK in InputEvent has been deprecated
+    [javac]                 if ((e.getModifiers() & MouseEvent.CTRL_MASK) == 0) {
+    [javac]                                                   ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteManagerPanel.java:469: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac]         private static final int ACCELERATOR_KEY = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac]                                                                               ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/view/PaletteManagerPanel.java:499: warning: [deprecation] getModifiers() in InputEvent has been deprecated
+    [javac]             if (e.getModifiers() == ACCELERATOR_KEY) {
+    [javac]                  ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/palette/model/Custom.java:48: error: Custom is not abstract and does not override abstract method children() in TreeNode
+    [javac] public class Custom extends Palette {
+    [javac]        ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/ImageIconTranscoder.java:82: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]         hints.put(KEY_WIDTH, new Float(width));
+    [javac]                              ^
+    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/mod    [javac] /Users/divyanshukumar/Documents/check/scilab/scilab/modules/xcos/src/java/org/scilab/modules/xcos/utils/ImageIconTranscoder.java:83: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]         hints.put(KEY_HEIGHT, new Float(height));
+    [javac]                               ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 7 errors
+    [javac] 55 warnings
+
+BUILD FAILED
+/Users/divyanshukumar/Documents/check/scilab/scilab/modules/prebuildjava/build.xml:104: The following error occurred while executing this line:
+/Users/divyanshukumar/Documents/check/scilab/scilab/build.incl.xml:111: Compile failed; see the compiler error output for details.
