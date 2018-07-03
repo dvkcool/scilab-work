@@ -69,7 +69,7 @@ jdkpath_default=$(/usr/libexec/java_home)
 current_dir=$(pwd)
 
 # Creating a .app for Mac including folder for resources and plugins(including thirdparty libs and  jdk).
-mkdir -p Scilab.app/Contents/MacOS/ Scilab.app/Contents/Resources/ Scilab.app/Contents/MacOS/thirdparty/ Scilab.app/Contents/MacOS/thirdparty/java/
+mkdir -p Scilab.app/Contents/MacOS/ Scilab.app/Contents/Resources/ Scilab.app/Contents/MacOS/thirdparty/ Scilab.app/Contents/PlugIns/java/
 
 # Copying Info.plist to app
 cp ./etc/Info.plist ./Scilab.app/Contents/
@@ -79,24 +79,24 @@ cp  ./desktop/images/icons/puffin.icns ./Scilab.app/Contents/Resources/
 
 
 # Copying the JDK
-cp -R /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/* ./Scilab.app/Contents/MacOS/thirdparty/java/
+cp -R /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/* ./Scilab.app/Contents/PlugIns/java/
 
 # Copying thirdparty libraries to the jdk(Additional)
-cp -R ./lib/thirdparty/* ./Scilab.app/Contents/MacOS/thirdparty/java/Contents/Home/jre/lib/
+cp -R ./lib/thirdparty/* ./Scilab.app/Contents/PlugIns/java/Contents/Home/jre/lib/
 
 # Copying thirdparty jars
 cp -R ./thirdparty/* ./Scilab.app/Contents/MacOS/thirdparty/
 
 
 # Making dynamic link
-cd ./Scilab.app/Contents/MacOS/thirdparty/java/Contents/Home
+cd ./Scilab.app/Contents/PlugIns/java/Contents/Home/
 sudo ln -s ./jre/lib/server/libjvm.dylib libserver.dylib
-cd ../../../../../../..
+cd ../../../../../..
 
 # Making dynamic link- putting a link in COntents too, sometimes it looks in Contents too.
-cd ./Scilab.app/Contents/MacOS/thirdparty/java/Contents/
+cd ./Scilab.app/Contents/PlugIns/java/Contents/
 sudo ln -s ./Home/jre/lib/server/libjvm.dylib libserver.dylib
-cd ../../../../../..
+cd ../../../../..
 
 # Compiling with paramerters specified by users
  ./configure  --without-openmp --prefix=`pwd`/Scilab.app/Contents/MacOS/ --without-tk --with-eigen_include=`pwd`/lib/Eigen/includes  --with-jdk=`pwd`/Scilab.app/Contents/MacOS/thirdparty/java/Contents/Home $parameters && make
@@ -105,76 +105,79 @@ cd ../../../../../..
 make install
 
 # Removing a depreciated library
- rm Scilab.app/Contents/MacOS/thirdparty/java/Contents/Home/jre/lib/libjfxmedia.dylib
+ rm Scilab.app/Contents/PlugIns/java/Contents/Home/jre/lib/libjfxmedia.dylib
 
 
 # Putting read write permissions in jdk
- chmod -R +w Scilab.app/Contents/MacOS/thirdparty/java
+ chmod -R +w Scilab.app/Contents/PlugIns/java
 
 # Signing all the jars and dylib
- find Scilab.app/Contents/ -type f \( -name "*.jar" -or -name "*.dylib" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.jar" -or -name "*.dylib" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing executables in bin folder
- find Scilab.app/Contents/MacOS/bin/ -type f \( -name "*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/MacOS/bin/ -type f \( -name "*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing header files (.h, .hxx, .hpp) and html files too
- find Scilab.app/Contents/ -type f \( -name "*.h*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.h*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing .pc, .pf files
- find Scilab.app/Contents/ -type f \( -name "*.p*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.p*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing -la files
- find Scilab.app/Contents/MacOS/lib/scilab/ -type f \( -name "*.la*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/MacOS/lib/scilab/ -type f \( -name "*.la*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing LICENSE files
- find Scilab.app/Contents/ -type f \( -name "*.LICENSE*"  -or -name "*LICENSE*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.LICENSE*"  -or -name "*LICENSE*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing xml and xsl  files
- find Scilab.app/Contents/ -type f \( -name "*.xml*" -or -name "*.xsl" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.xml*" -or -name "*.xsl" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing Java files
- find Scilab.app/Contents/ -type f \( -name "*.java*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.java*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing properties files
- find Scilab.app/Contents/ -type f \( -name "*.properties*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.properties*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing perl scripts (.pl files)
- find Scilab.app/Contents/ -type f \( -name "*.pl*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.pl*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing text files and README too - I know its too much but codesign won't accept without txt files signed too.
- find Scilab.app/Contents/ -type f \( -name "*.txt*" -or -name "*README*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.txt*" -or -name "*README*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing antlr and CSS files
- find Scilab.app/Contents/ -type f \( -name "*.antlr*" -or -name "*.css*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.antlr*" -or -name "*.css*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing png and gif too
- find Scilab.app/Contents/ -type f \( -name "*.png*" -or -name "*.gif" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.png*" -or -name "*.gif" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing options and packages executable in thirdparty/checkstyle/site/apidocs
- find Scilab.app/Contents/MacOS/thirdparty/checkstyle/site/apidocs/ -type f \( -name "options" -or -name "*package*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/MacOS/thirdparty/checkstyle/site/apidocs/ -type f \( -name "options" -or -name "*package*" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing jilib files
- find Scilab.app/Contents/ -type f \( -name "*.jnilib" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.jnilib" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing data files
- find Scilab.app/Contents/ -type f \( -name "*.data" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar " {} \;
+ find Scilab.app/Contents/ -type f \( -name "*.data" \) -exec codesign --verbose -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)" {} \;
 
 # Signing the main app
- codesign -v -f -s "Mac Developer: Divyanshu Kumar "  Scilab.app
+ codesign -v -f -s "Mac Developer: Divyanshu Kumar (P2Q547GWU7)"  Scilab.app
 
-# moving the app to app folder
-mv Scilab.app ./create-dmg/Scilab.app
+ # copying the app to create-dmg folder
+ cp -R  Scilab.app ./create-dmg/Scilab.app
 
-./create-dmg --window-size 381 290 \
---background backimg.png \
- --icon-size 48 --volname "Scilab" \
- --app-drop-link 280 105 \
- --icon "Scilab.app" 100 105 \
- ScilabInstaller.dmg \
- Scilab.app
+ # changing directory to create-dmg folder
+ cd create-dmg
+
+ ./create-dmg --window-size 381 290 \
+ --background backimg.png \
+  --icon-size 48 --volname "Scilab" \
+  --app-drop-link 280 105 \
+  --icon "Scilab.app" 100 105 \
+  ScilabInstaller.dmg \
+  Scilab.app
 
  # Signing the main dmg installer
- codesign -v -f -s "Mac Developer: Divyanshu Kumar " ScilabInstaller.dmg
+ codesign -v -f -s "Developer ID Application: SCILAB ENTERPRISES (M9A7TMQ5QQ)" ScilabInstaller.dmg
 
 echo "Congratulations dmg is ready"
 
